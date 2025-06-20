@@ -5,10 +5,11 @@ on:
 
 jobs:
   testing:
-  runs-on: self-hosted
-  steps:
-  - name: testing runner
-    run: |
-         echo "Kewal running self hosted actions runner"
-         echo "Okay!!"
+    name: testing
+    runs-on: self-hosted
+    steps:
+      - name: testing runner
+        run: |
+             echo "Kewal running self hosted actions runner"
+             echo "Okay!!"
       
